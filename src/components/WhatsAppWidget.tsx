@@ -13,13 +13,13 @@ const WhatsAppWidget = () => {
 
   return (
     <motion.div
-      className="fixed bottom-6 right-6 z-50"
+      className="fixed bottom-4 right-4 md:bottom-6 md:right-6 z-50"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
     >
       <motion.button
-        className="relative flex items-center justify-center w-14 h-14 bg-[#25D366] rounded-full shadow-lg hover:shadow-xl transition-shadow"
+        className="relative flex items-center justify-center w-12 h-12 md:w-14 md:h-14 bg-[#25D366] rounded-full shadow-lg hover:shadow-xl transition-shadow"
         onClick={handleClick}
         onHoverStart={() => setIsHovered(true)}
         onHoverEnd={() => setIsHovered(false)}
@@ -27,7 +27,7 @@ const WhatsAppWidget = () => {
         whileTap={{ scale: 0.9 }}
       >
         <svg
-          className="w-7 h-7 text-white"
+          className="w-6 h-6 md:w-7 md:h-7 text-white"
           fill="currentColor"
           viewBox="0 0 24 24"
           xmlns="http://www.w3.org/2000/svg"
@@ -37,7 +37,7 @@ const WhatsAppWidget = () => {
 
         {/* Tooltip */}
         <motion.div
-          className="absolute right-16 bg-gray-800 text-white px-4 py-2 rounded-lg text-sm whitespace-nowrap"
+          className="absolute right-14 bg-gray-800 text-white px-3 py-2 rounded-lg text-sm whitespace-nowrap hidden md:block"
           initial={{ opacity: 0, x: 20 }}
           animate={{ opacity: isHovered ? 1 : 0, x: isHovered ? 0 : 20 }}
           transition={{ duration: 0.2 }}
