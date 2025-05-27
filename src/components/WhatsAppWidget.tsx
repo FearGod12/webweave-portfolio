@@ -13,7 +13,7 @@ const WhatsAppWidget = () => {
 
   return (
     <motion.div
-      className="fixed bottom-4 right-4 md:bottom-6 md:right-6 z-50"
+      className="fixed bottom-10 right-4 md:bottom-10 md:right-6 z-50"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}

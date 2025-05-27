@@ -17,7 +17,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="fixed w-full bg-white/80 dark:bg-gray-900/80 backdrop-blur-md z-50 shadow-sm">
+    <nav className="fixed w-full bg-gray-900/80 backdrop-blur-md z-50 shadow-sm">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <Link to="/">
@@ -33,15 +33,15 @@ const Navbar = () => {
                 className={`relative px-3 py-2 text-sm font-medium transition-colors
                   ${
                     location.pathname === item.path
-                      ? 'text-purple-600 dark:text-purple-400'
-                      : 'text-gray-600 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400'
+                      ? 'text-purple-400'
+                      : 'text-gray-300 hover:text-purple-400'
                   }`}
               >
                 {item.label}
                 {location.pathname === item.path && (
                   <motion.div
                     layoutId="navbar-indicator"
-                    className="absolute bottom-0 left-0 right-0 h-0.5 bg-purple-600 dark:bg-purple-400"
+                    className="absolute bottom-0 left-0 right-0 h-0.5 bg-purple-400"
                     initial={false}
                     transition={{ type: 'spring', stiffness: 500, damping: 30 }}
                   />
@@ -52,7 +52,7 @@ const Navbar = () => {
 
           {/* Mobile Navigation Button */}
           <button
-            className="md:hidden p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800"
+            className="md:hidden p-2 rounded-lg hover:bg-gray-800"
             onClick={() => setIsOpen(!isOpen)}
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -91,8 +91,8 @@ const Navbar = () => {
                   className={`block px-3 py-2 rounded-md text-base font-medium
                     ${
                       location.pathname === item.path
-                        ? 'text-purple-600 dark:text-purple-400 bg-purple-50 dark:bg-purple-900/20'
-                        : 'text-gray-600 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-800'
+                        ? 'text-purple-400 bg-purple-900/20'
+                        : 'text-gray-300 hover:bg-gray-800'
                     }`}
                   onClick={() => setIsOpen(false)}
                 >
