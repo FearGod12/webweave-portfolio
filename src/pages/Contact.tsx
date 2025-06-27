@@ -88,7 +88,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="text-lg font-medium text-gray-800 dark:text-gray-200">Email</h3>
-                  <p className="text-gray-600 dark:text-gray-400">contact@webweave.com</p>
+                  <p className="text-gray-600 dark:text-gray-400">onyenikechukwudi@gmail.com</p>
                 </div>
               </div>
 
@@ -110,7 +110,9 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="text-lg font-medium text-gray-800 dark:text-gray-200">Phone</h3>
-                  <p className="text-gray-600 dark:text-gray-400">+1 (555) 123-4567</p>
+                  <p className="text-gray-600 dark:text-gray-400">
+                    +234 808 447 7096 | +234 816 064 7655
+                  </p>
                 </div>
               </div>
 
@@ -138,7 +140,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="text-lg font-medium text-gray-800 dark:text-gray-200">Location</h3>
-                  <p className="text-gray-600 dark:text-gray-400">San Francisco, CA</p>
+                  <p className="text-gray-600 dark:text-gray-400">Lagos, Nigeria</p>
                 </div>
               </div>
             </div>

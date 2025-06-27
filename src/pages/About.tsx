@@ -4,12 +4,18 @@ const About = () => {
   const skills = [
     { name: 'TypeScript', level: 95 },
     { name: 'Python', level: 90 },
-    { name: 'React/Next.js', level: 90 },
+    { name: 'React/Next.js/TailwindCSS', level: 90 },
+    { name: 'Flask/FastAPI', level: 90 },
     { name: 'Node.js/NestJS', level: 90 },
     { name: 'AWS', level: 85 },
     { name: 'Docker/Kubernetes', level: 80 },
     { name: 'PostgreSQL/MySQL', level: 85 },
     { name: 'MongoDB', level: 85 },
+    { name: 'CI/CD', level: 80 },
+    { name: 'Microservices', level: 90 },
+    { name: 'API Design', level: 90 },
+    { name: 'API Documentation', level: 90 },
+    { name: 'API Testing', level: 90 },
   ];
 
   const containerVariants = {

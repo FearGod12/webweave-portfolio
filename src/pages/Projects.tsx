@@ -10,26 +10,24 @@ const Projects = () => {
       title: 'Peerpay Network',
       description:
         'Built and deployed microservices using NestJS and Kafka, processing over 10,000 transactions monthly. Features include admin portals using Next.js and Tailwind CSS.',
-      image:
-        'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+      image: '/peerpaynetwork.png',
       tags: ['NestJS', 'Kafka', 'Next.js', 'AWS'],
       category: 'backend',
-      link: '#',
+      link: 'https://peerpaynetwork.com',
     },
     {
       id: 2,
       title: 'Rokswood Utility App',
       description:
         'IoT integration with MQTT for smart meters, featuring wallet integrations with Paystack and Paygate. Hosted on AWS with optimized performance.',
-      image:
-        'https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+      image: '/rokswood-utility.png',
       tags: ['IoT', 'MQTT', 'Paystack', 'AWS'],
       category: 'iot',
-      link: '#',
+      link: 'https://www.rokswoodenergy.com',
     },
     {
       id: 3,
-      title: 'Agrify SIP App',
+      title: 'Agrify TrueNature SIP App',
       description:
         'Subscription backend built with NestJS, featuring WebSocket notifications and integrated payment systems for seamless user experience.',
       image:
@@ -40,14 +38,43 @@ const Projects = () => {
     },
     {
       id: 4,
+      title: 'Rokswood Efab Website',
+      description:
+        'Modern React-based website and fully responsive design for optimal user experience across all devices.',
+      image: '/rokswood-efab.png',
+      tags: ['React', 'Next.js', 'TailwindCSS'],
+      category: 'frontend',
+      link: 'https://www.rokswoodefab.com',
+    },
+    {
+      id: 5,
+      title: 'Rokswood Energy Website',
+      description:
+        'Modern React-based website and fully responsive design for optimal user experience across all devices.',
+      image: '/rokswood-energy.png',
+      tags: ['React', 'Next.js', 'TailwindCSS'],
+      category: 'frontend',
+      link: 'https://www.rokswoodenergy.com',
+    },
+    {
+      id: 6,
+      title: 'Rokswood Main Website',
+      description:
+        'Modern React-based website and fully responsive design for optimal user experience across all devices.',
+      image: '/rokswood.png',
+      tags: ['React', 'Next.js', 'TailwindCSS'],
+      category: 'frontend',
+      link: 'https://www.rokswood.com',
+    },
+    {
+      id: 7,
       title: 'Horlamichemicals Website',
       description:
         'Modern React-based website with Paystack integration and fully responsive design for optimal user experience across all devices.',
-      image:
-        'https://images.unsplash.com/photo-1540350394557-8d14678e7f91?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+      image: '/horlamichemicals.png',
       tags: ['React', 'Paystack', 'Responsive'],
       category: 'frontend',
-      link: '#',
+      link: 'https://www.horlamichemicals.com.ng',
     },
   ];
 
@@ -148,6 +175,8 @@ const Projects = () => {
                 </div>
                 <a
                   href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-block px-4 py-2 bg-gradient-to-r from-purple-600 to-blue-600 text-white rounded-lg hover:from-purple-700 hover:to-blue-700 transition-colors"
                 >
                   View Project

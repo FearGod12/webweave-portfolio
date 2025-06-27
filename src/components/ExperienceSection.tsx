@@ -4,9 +4,9 @@ const experiences = [
   {
     company: 'Peerpay Digital Assets Ltd',
     role: 'TypeScript Engineer (Full-Stack)',
-    period: 'Jan 2025 – Present',
+    period: 'Dec 2024 – Present',
     details: [
-      'Architected and implemented microservices using NestJS and Kafka, handling over 10,000 transactions monthly with 99.9% reliability',
+      'Architected and implemented microservices using NestJS and Kafka, handling thousands of transactions monthly with 99.9% reliability',
       'Developed comprehensive admin portals using Next.js 14, TypeScript, and Tailwind CSS, implementing real-time dashboards and analytics',
       'Designed and implemented a robust CI/CD pipeline using GitHub Actions, reducing deployment time by 60% and ensuring zero-downtime updates',
       'Optimized AWS infrastructure using EC2, S3, and CloudFront, implementing auto-scaling and load balancing for high availability',
@@ -16,7 +16,7 @@ const experiences = [
   {
     company: 'Rokswood Group of Companies',
     role: 'Software Engineer (Full-Stack)',
-    period: 'May 2022 – Present',
+    period: 'May 2021 – Dec 2024',
     details: [
       'Engineered high-performance REST APIs using Node.js and Express, implementing Redis caching and query optimization, reducing response times by 30%',
       'Developed real-time IoT monitoring system using MQTT protocol, handling data from 500+ smart meters with WebSocket integration for live updates',
